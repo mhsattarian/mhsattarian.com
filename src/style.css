@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton|Open+Sans|Raleway:100, 400&display=swap");
+
+@font-face {
+  font-family: Vazir;
+  src: url("assets/Vazir.eot");
+  src: url("assets/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("assets/Vazir.woff2") format("woff2"),
+    url("assets/Vazir.woff") format("woff"),
+    url("assets/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("assets/Vazir-Medium.eot");
+  src: url("assets/Vazir-Medium.eot?#iefix") format("embedded-opentype"),
+    url("assets/Vazir-Medium.woff2") format("woff2"),
+    url("assets/Vazir-Medium.woff") format("woff"),
+    url("assets/Vazir-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.dark {
+  background: #1c2022;
+  color: #ccc;
+}
+
+.light {
+  color: #1c2022;
+  background: #ccc;
+}
+
+main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+main .main-canvas {
+  width: 100%;
+  height: 95%;
+  background-color: #ffffff59;
+  filter: blur(171px);
+  pointer-events: none;
+}
+
+main article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main article > * {
+  margin-right: 0.3em;
+}
+
+main h1,
+main h2 {
+  display: inline-block;
+  padding: 0;
+  font-size: 1em;
+}
+
+.logo {
+  width: 2em;
+  height: 2em;
+  background: url(assets/logo-light.png) no-repeat center center;
+  background-size: cover;
+}
+
+main footer {
+  width: 100%;
+  display: flex;
+  font-size: 0.7em;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body.en .fa {
+  display: none;
+}
+
+body.fa .en {
+  display: none;
+}
+
+.fa main footer {
+  flex-direction: row-reverse;
+}
+
+.fa main footer article {
+  direction: rtl;
+  font-family: Vazir;
+}
+
+main footer article a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main footer article a:visited {
+  color: inherit;
+}
+
+main footer .change-locale {
+  cursor: pointer;
+}
+
+.firstname:hover {
+  border-bottom: 1px solid white;
+}
+
+#hassan {
+}
+
+#hossein {
+}
+
+.dark .logo {
+  filter: invert();
+}
+
+.light .logo {
+}
