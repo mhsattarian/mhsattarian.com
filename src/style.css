@@ -1,27 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton|Open+Sans|Raleway:100, 400&display=swap");
 
-@font-face {
-  font-family: Vazir;
-  src: url("assets/Vazir.eot");
-  src: url("assets/Vazir.eot?#iefix") format("embedded-opentype"),
-    url("assets/Vazir.woff2") format("woff2"),
-    url("assets/Vazir.woff") format("woff"),
-    url("assets/Vazir.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Vazir;
-  src: url("assets/Vazir-Medium.eot");
-  src: url("assets/Vazir-Medium.eot?#iefix") format("embedded-opentype"),
-    url("assets/Vazir-Medium.woff2") format("woff2"),
-    url("assets/Vazir-Medium.woff") format("woff"),
-    url("assets/Vazir-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
 html,
 body {
   height: 100vh;
